@@ -494,6 +494,8 @@ var pulldown = $(".page-area-linkbox").find(".page-area-linkbox__list:first");
   infinite: true,
   speed: 300,
   slidesToShow: 1,
+        autoplay: ture,
+        autoplaySpeed: 2000,	    
   nextArrow: '.slider-next',
   prevArrow: '.slider-prev',
     });
@@ -506,11 +508,6 @@ var pulldown = $(".page-area-linkbox").find(".page-area-linkbox__list:first");
 					additionalMarginTop: 150
 				});
 		});  
-
-
-
-
-
 
 AnmlNavigation.prototype.menuOpenClass = "menu-open";
 AnmlNavigation.prototype.screenOpenClass = "screen-open";
