@@ -494,8 +494,8 @@ var pulldown = $(".page-area-linkbox").find(".page-area-linkbox__list:first");
   infinite: true,
   speed: 300,
   slidesToShow: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,	    
+  autoplay: true,
+  autoplaySpeed: 2000,	    
   nextArrow: '.slider-next',
   prevArrow: '.slider-prev',
     });
